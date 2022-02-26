@@ -1,0 +1,170 @@
+/*
+COLORS:
+
+white: #0d0d0d #dcdcdc
+black: #dcdcdc #0d0d0b
+light black: #191919
+
+*/
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700;800&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: inherit; */
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  overflow-x: hidden;
+  /* background: #e5e5e5; */
+}
+
+b {
+  font-weight: 700;
+}
+h1 {
+  font-family: "Karla", sans-serif;
+  font-size: 6rem;
+  line-height: 9rem;
+  font-weight: 800;
+  color: #08102d;
+}
+
+h2 {
+  font-family: "Karla", sans-serif;
+  font-size: 3.4rem;
+  line-height: 4rem;
+  font-weight: 700;
+  color: #000000;
+}
+
+h3 {
+  font-family: "Karla", sans-serif;
+  font-size: 2.4rem;
+  line-height: 3rem;
+  font-weight: 700;
+  color: #000000;
+}
+
+/* h4 {
+  font-family: "Karla", sans-serif;
+  font-size: 3.2rem;
+  font-weight: 400;
+  color: #273920;
+  opacity: 90%;
+} */
+
+p {
+  font-family: "Karla", sans-serif;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  font-weight: 500;
+  color: #08102d;
+}
+
+li {
+  font-family: "Karla", sans-serif;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  font-weight: 500;
+  color: #08102d;
+  margin: 0 2rem;
+}
+
+.btn_1 {
+  background: #045c58;
+  border-radius: 6px;
+  width: 21rem;
+}
+
+.btn_1:hover {
+  background: #03413d;
+}
+
+.btn_1 p {
+  font-family: "Karla", sans-serif;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.btn_2 {
+  background: #cdfcfa;
+  border-radius: 6px;
+  width: 21rem;
+  border: 1.5px solid #045c58;
+}
+
+.btn_2:hover {
+  background: #eefffe;
+}
+
+.btn_2 p {
+  font-family: "Karla", sans-serif;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  font-weight: 500;
+  color: #032406;
+}
+
+.btn_3 {
+  background: #ffffff;
+  border-radius: 6px;
+  width: 31rem;
+  border: 1.5px solid #045c58;
+}
+
+.btn_3:hover {
+  background: #057c76;
+}
+.btn_3:hover h3 {
+  color: #ffffff !important;
+}
+
+.btn_3 h3 {
+  font-family: "Karla", sans-serif;
+  margin-top: 5px !important;
+  padding: 5px 0;
+  color: #045c58 !important;
+}
+
+.hero-img {
+  width: 49.7rem;
+}
+
+.points-section,
+.hero-section,
+.features-section {
+  padding: 5rem 0;
+}
+
+.features-section {
+  background-color: #045c58;
+  background-image: url(../assets/Ellipse11.svg);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 59rem 59rem;
+}
+
+.features-section p,
+h3 {
+  color: #ffffff;
+}
+.features-section p {
+  color: #ffffff;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+
+.vl {
+  border-left: 3px solid #57fef6;
+  border-radius: 2px;
+  height: auto;
+}
