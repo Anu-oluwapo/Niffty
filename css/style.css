@@ -158,6 +158,10 @@ li {
   background-size: 59rem 59rem;
 }
 
+.feature3-img {
+  width: 50rem;
+}
+
 .features4-section {
   background-color: #00c7be;
   background-image: url(../assets/Ellipse11.svg);
@@ -271,13 +275,17 @@ li {
 }
 
 /* Small devices (tablets, 768px and up) */
-@media (max-width: 768px) {
+@media (max-width: 1243px) {
   html {
     font-size: 50%;
   }
 
   .hero-img {
     display: none;
+  }
+
+  .feature3-img {
+    width: 40rem;
   }
 
   .features-section {
@@ -289,7 +297,7 @@ li {
   }
 
   .unsplash {
-    width: 50rem;
+    width: 40rem;
   }
 
   .phoneape {
