@@ -199,6 +199,8 @@ li {
   display: inline-block !important;
   height: 6rem;
   background-color: #d9fdfb;
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 0%;
 }
 
 .newsletter-input::placeholder {
@@ -213,6 +215,8 @@ li {
   background-color: #057c76;
   color: #ffffff;
   margin: 0;
+  margin-left: -10px;
+  margin-top: -3px;
   border-radius: 0;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
@@ -222,6 +226,15 @@ li {
   font-size: 1.8rem;
   line-height: 3rem;
   font-weight: 500;
+}
+.btn_4:hover {
+  width: 23rem;
+  transition: 2s;
+}
+
+.btn_4::after {
+  width: 21rem;
+  transition: 2s;
 }
 
 .btn_4 p {
@@ -280,10 +293,6 @@ li {
     font-size: 50%;
   }
 
-  .hero-img {
-    display: none;
-  }
-
   .feature3-img {
     width: 40rem;
   }
@@ -296,17 +305,77 @@ li {
     background-image: none;
   }
 
-  .unsplash {
-    width: 40rem;
-  }
-
   .phoneape {
     transform: translateY(15%);
   }
 }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+@media (max-width: 992px) {
+  .hero-img {
+    display: block;
+    width: 39.7rem;
+  }
+
+  .bitcoin {
+    width: 5rem;
+  }
+
+  .unsplash {
+    width: 45rem;
+  }
+
+  .newsletter-input {
+    width: 23rem;
+    margin: 0;
+    display: inline-block !important;
+    height: 6rem;
+    background-color: #d9fdfb;
+  }
+
+  .newsletter-input::placeholder {
+    font-family: "Karla", sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+  }
+
+  .btn_4 {
+    display: inline-block;
+    background-color: #057c76;
+    color: #ffffff;
+    margin: 0;
+    margin-left: -10px;
+    margin-top: -3px;
+    border-radius: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 6rem;
+    width: 13rem;
+    font-family: "Karla", sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+  }
+
+  .btn_4 p {
+    color: #ffffff;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-img {
+    display: none;
+  }
+
+  li {
+    font-family: "Karla", sans-serif;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    font-weight: 500;
+    color: #08102d;
+    margin: 1rem 0;
+  }
 }
 
 /* Large devices (large desktops, 1200px and up)
