@@ -18,10 +18,12 @@ light black: #191919
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
   overflow-x: hidden;
+  
   /* background: #e5e5e5; */
 }
 
@@ -230,15 +232,12 @@ li {
 .btn_4:hover {
   width: 23rem;
   transition: 2s;
+  color: #ffffff;
 }
 
 .btn_4::after {
   width: 21rem;
   transition: 2s;
-}
-
-.btn_4 p {
-  color: #ffffff;
 }
 
 .phoneape {
